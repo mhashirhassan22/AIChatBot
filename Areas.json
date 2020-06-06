@@ -1,0 +1,113 @@
+{
+  "Areas": [
+    {
+      "tag": "10 Marla",
+      "patterns": [
+        "10 Marla","ten marla","10 marla","10 marlay","ten marlay","ten marlas","10 marlas"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "16 Marla",
+      "patterns": [
+        "16 Marla","sixteen marla","16 marla","16 marlay","sixteen marlay","16 marlas","16 marlas"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "1 kanal",
+      "patterns": [
+        "1 kanal","one kanal","20 marla","20 marla kanal"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "10.2 Marla",
+      "patterns": [
+        "10.2 Marla","12 marla","13 marla","14 marlay","tweleve marlay"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "10.6 Marla",
+      "patterns": [
+        "10.6 Marla","10.6 marla","10.6 marla","10.6 marlay","ten above marlay","ten plus marlas","10+ marlas"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "18 Marla",
+      "patterns": [
+        "18 Marla","eighteen marla","18 marla","19 marlay","ninteen marla","19 marlas","18 marlas"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "12 Marla",
+      "patterns": [
+        "12 Marla","twelve marla","12 marla","12 marlay","twelve marlay","12 marlas","12 marlas"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "12.4 Marla",
+      "patterns": [
+        "12.4 Marla","twelve above marla","12.4 marla","12 plus marlay","fifteen marlay","13 marlas","13 marlas"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "1.1 kanal",
+      "patterns": [
+        "1.1 kanal"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "1.2 kanal",
+      "patterns": [
+        "1.2 kanal","one plus kanal","22 marla","21 marla kanal", "twenty marla"
+      ],
+      "responses": [ "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i need would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    }
+  ]
+}

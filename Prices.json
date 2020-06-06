@@ -1,0 +1,93 @@
+{"Prices": [
+    {
+      "tag": "PKR3.5 Crore",
+      "patterns": [
+        "3.5 Crore","35000000","three and half crore","35000000 pkr","under 4 crore rupees"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PKR1.5 Crore",
+      "patterns": [
+        "1.5 Crore","15000000","one and half crore rupees","15000000 pkr","1.5 Crore pkr","1.5 Crore rupees"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PKR65 Lakh",
+      "patterns": [
+        "65 Lakh","6500000","sixtey five lac rupees","sixtey five lac","65 Lakh pkr","65 lac"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PKR20 Lakh",
+      "patterns": [
+        "20 Lakh","2000000","twenty lakh", "20 lac","PKR20 lac ","20 lac PKR"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    }
+    ,
+    {
+      "tag": "PKR80 Lakh",
+      "patterns": [
+        "80 Lakh","8000000","eighty lac rupees","80 Lac"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    }
+    ,
+    {
+      "tag": "PKR1.2 Crore",
+      "patterns": [
+        "1.2 Crore","12000000","1.2 Crore pkr","12000000 lac","one plus Crore","12000000 rupees","one point two crore"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PKR2.25 Crore",
+      "patterns": [
+        "2.25 Crore","22500000","2.25 Crore rupees pkr","2250000 crore","two and half crore","two hundred lac"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PKR3 Crore",
+      "patterns": [
+        "3 Crore","30000000", "3 Crore pkr","30000000 rupees", "3 Crore pkr","three crore","Three crore Rupees","price does not matter","I am rich","i do not care about"
+      ],
+      "responses": [
+         "What size(marla or kanal) of property you are looking for","What is your price range",
+        "I have all the essential information i needed, would you like me to suggest a few options","Would you like to buy a house or Flat"
+      ],
+      "context_set": ""
+    }
+  ]
+}

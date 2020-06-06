@@ -1,0 +1,2665 @@
+{
+     "intents": [
+          {
+               "tag": "greeting",
+               "patterns": [
+                    "Hi",
+                    "How are you",
+                    "Is anyone there?",
+                    "Hello",
+                    "Good day",
+                    "Whats up"
+               ],
+               "responses": [
+                    "Hello!",
+                    "Good to see you again!",
+                    "Hi there, how can I help?",
+                    "Hi is there any why i can help you"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "goodbye",
+               "patterns": [
+                    "cya",
+                    "See you later",
+                    "Goodbye",
+                    "I am Leaving",
+                    "Have a Good day",
+                    "Bye, Thanks for the help "
+               ],
+               "responses": [
+                    "Sad to see you go :(",
+                    "Talk to you later",
+                    "Goodbye!",
+                    "Glad To be of Help Goodbye"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "name",
+               "patterns": [
+                    "what is your name",
+                    "what should I call you",
+                    "whats your name?",
+                    "Who are  you",
+                    "name?"
+               ],
+               "responses": [
+                    "You can call me Noobey.",
+                    "I'm Noobey!",
+                    "I'm Noobey aka a fucking chatbot."
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Time",
+               "patterns": [
+                    "when are you guys open",
+                    "what are your hours",
+                    "hours of operation",
+                    "Are you open",
+                    "What Time is your shop Open at",
+                    "Are you guys open"
+               ],
+               "responses": [
+                    "We are open 7am-4pm Monday-Friday!"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "House",
+               "patterns": [
+                    "I want to buy a house"
+               ],
+               "responses": [
+                    "what city would you like to buy in"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Flat",
+               "patterns": [
+                    "I want to buy a Flat"
+               ],
+               "responses": [
+                    "what city would you like to buy in"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Cities",
+               "patterns": [
+                    "In what cities do you sell"
+               ],
+               "responses": [
+                    "City Names"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Suggest",
+               "patterns": [
+                    "Suggest me a house",
+                    "Show me what are you selling",
+                    "another"
+               ],
+               "responses": [
+                    ""
+               ],
+               "context_set": [
+                    ""
+               ]
+          },
+          {
+               "tag": "Area 1",
+               "patterns": [
+                    "1.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 2",
+               "patterns": [
+                    "1.7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 3",
+               "patterns": [
+                    "10 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 4",
+               "patterns": [
+                    "10.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 5",
+               "patterns": [
+                    "10.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 6",
+               "patterns": [
+                    "11 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 7",
+               "patterns": [
+                    "12 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 8",
+               "patterns": [
+                    "12.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 9",
+               "patterns": [
+                    "12.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 10",
+               "patterns": [
+                    "13 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 11",
+               "patterns": [
+                    "14 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 12",
+               "patterns": [
+                    "15 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 13",
+               "patterns": [
+                    "15.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 14",
+               "patterns": [
+                    "16 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 15",
+               "patterns": [
+                    "18 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 16",
+               "patterns": [
+                    "18.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 17",
+               "patterns": [
+                    "2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 18",
+               "patterns": [
+                    "2.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 19",
+               "patterns": [
+                    "2.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 20",
+               "patterns": [
+                    "2.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 21",
+               "patterns": [
+                    "2.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 22",
+               "patterns": [
+                    "3 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 23",
+               "patterns": [
+                    "3.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 24",
+               "patterns": [
+                    "3.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 25",
+               "patterns": [
+                    "3.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 26",
+               "patterns": [
+                    "3.7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 27",
+               "patterns": [
+                    "3.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 28",
+               "patterns": [
+                    "4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 29",
+               "patterns": [
+                    "4.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 30",
+               "patterns": [
+                    "4.3 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 31",
+               "patterns": [
+                    "4.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 32",
+               "patterns": [
+                    "4.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 33",
+               "patterns": [
+                    "4.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 34",
+               "patterns": [
+                    "5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 35",
+               "patterns": [
+                    "5.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 36",
+               "patterns": [
+                    "5.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 37",
+               "patterns": [
+                    "5.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 38",
+               "patterns": [
+                    "5.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 39",
+               "patterns": [
+                    "5.7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 40",
+               "patterns": [
+                    "5.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 41",
+               "patterns": [
+                    "6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 42",
+               "patterns": [
+                    "6.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 43",
+               "patterns": [
+                    "6.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 44",
+               "patterns": [
+                    "6.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 45",
+               "patterns": [
+                    "6.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 46",
+               "patterns": [
+                    "7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 47",
+               "patterns": [
+                    "7.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 48",
+               "patterns": [
+                    "7.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 49",
+               "patterns": [
+                    "8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 50",
+               "patterns": [
+                    "8.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 51",
+               "patterns": [
+                    "9 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 52",
+               "patterns": [
+                    "9.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 53",
+               "patterns": [
+                    "1 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 54",
+               "patterns": [
+                    "1.1 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 55",
+               "patterns": [
+                    "1.2 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 56",
+               "patterns": [
+                    "1.3 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 57",
+               "patterns": [
+                    "1.6 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 58",
+               "patterns": [
+                    "1.8 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 59",
+               "patterns": [
+                    "1.9 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 60",
+               "patterns": [
+                    "8 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 61",
+               "patterns": [
+                    "30 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 62",
+               "patterns": [
+                    "0.9 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 63",
+               "patterns": [
+                    "2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 64",
+               "patterns": [
+                    "2.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 65",
+               "patterns": [
+                    "2.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 66",
+               "patterns": [
+                    "3.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 67",
+               "patterns": [
+                    "3.3 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 68",
+               "patterns": [
+                    "3.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 69",
+               "patterns": [
+                    "3.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 70",
+               "patterns": [
+                    "4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 71",
+               "patterns": [
+                    "4.1 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 72",
+               "patterns": [
+                    "4.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 73",
+               "patterns": [
+                    "4.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 74",
+               "patterns": [
+                    "4.5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 75",
+               "patterns": [
+                    "4.7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 76",
+               "patterns": [
+                    "4.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 77",
+               "patterns": [
+                    "4.9 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 78",
+               "patterns": [
+                    "5 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 79",
+               "patterns": [
+                    "5.1 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 80",
+               "patterns": [
+                    "5.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 81",
+               "patterns": [
+                    "5.3 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 82",
+               "patterns": [
+                    "5.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 83",
+               "patterns": [
+                    "5.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 84",
+               "patterns": [
+                    "5.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 85",
+               "patterns": [
+                    "5.9 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 86",
+               "patterns": [
+                    "6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 87",
+               "patterns": [
+                    "6.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 88",
+               "patterns": [
+                    "6.3 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 89",
+               "patterns": [
+                    "6.4 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 90",
+               "patterns": [
+                    "6.7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 91",
+               "patterns": [
+                    "6.9 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 92",
+               "patterns": [
+                    "7.1 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 93",
+               "patterns": [
+                    "7.3 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 94",
+               "patterns": [
+                    "7.6 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 95",
+               "patterns": [
+                    "7.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 96",
+               "patterns": [
+                    "8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 97",
+               "patterns": [
+                    "8.7 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 98",
+               "patterns": [
+                    "8.9 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 99",
+               "patterns": [
+                    "9.8 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 100",
+               "patterns": [
+                    "10.2 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 101",
+               "patterns": [
+                    "11.1 Marla"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Area 102",
+               "patterns": [
+                    "2.8 Kanal"
+               ],
+               "responses": [
+                    "What is your price range"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 1",
+               "patterns": [
+                    "PKR17 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 2",
+               "patterns": [
+                    "PKR18 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 3",
+               "patterns": [
+                    "PKR20 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 4",
+               "patterns": [
+                    "PKR21 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 5",
+               "patterns": [
+                    "PKR22 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 6",
+               "patterns": [
+                    "PKR23 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 7",
+               "patterns": [
+                    "PKR24 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 8",
+               "patterns": [
+                    "PKR25 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 9",
+               "patterns": [
+                    "PKR26 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 10",
+               "patterns": [
+                    "PKR28 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 11",
+               "patterns": [
+                    "PKR30 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 12",
+               "patterns": [
+                    "PKR32 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 13",
+               "patterns": [
+                    "PKR35 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 14",
+               "patterns": [
+                    "PKR37 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 15",
+               "patterns": [
+                    "PKR37.5 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 16",
+               "patterns": [
+                    "PKR38 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 17",
+               "patterns": [
+                    "PKR38.5 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 18",
+               "patterns": [
+                    "PKR40 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 19",
+               "patterns": [
+                    "PKR42 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 20",
+               "patterns": [
+                    "PKR43 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 21",
+               "patterns": [
+                    "PKR44.5 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 22",
+               "patterns": [
+                    "PKR45 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 23",
+               "patterns": [
+                    "PKR48 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 24",
+               "patterns": [
+                    "PKR50 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 25",
+               "patterns": [
+                    "PKR51 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 26",
+               "patterns": [
+                    "PKR55 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 27",
+               "patterns": [
+                    "PKR57 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 28",
+               "patterns": [
+                    "PKR58 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 29",
+               "patterns": [
+                    "PKR60 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 30",
+               "patterns": [
+                    "PKR63 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 31",
+               "patterns": [
+                    "PKR65 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 32",
+               "patterns": [
+                    "PKR68 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 33",
+               "patterns": [
+                    "PKR70 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 34",
+               "patterns": [
+                    "PKR72 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 35",
+               "patterns": [
+                    "PKR75 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 36",
+               "patterns": [
+                    "PKR78 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 37",
+               "patterns": [
+                    "PKR79.4 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 38",
+               "patterns": [
+                    "PKR80 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 39",
+               "patterns": [
+                    "PKR85 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 40",
+               "patterns": [
+                    "PKR88 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 41",
+               "patterns": [
+                    "PKR90 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 42",
+               "patterns": [
+                    "PKR95 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 43",
+               "patterns": [
+                    "PKR96 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 44",
+               "patterns": [
+                    "PKR98 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 45",
+               "patterns": [
+                    "PKR1 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 46",
+               "patterns": [
+                    "PKR1.05 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 47",
+               "patterns": [
+                    "PKR1.1 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 48",
+               "patterns": [
+                    "PKR1.12 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 49",
+               "patterns": [
+                    "PKR1.15 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 50",
+               "patterns": [
+                    "PKR1.2 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 51",
+               "patterns": [
+                    "PKR1.25 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 52",
+               "patterns": [
+                    "PKR1.3 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 53",
+               "patterns": [
+                    "PKR1.35 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 54",
+               "patterns": [
+                    "PKR1.38 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 55",
+               "patterns": [
+                    "PKR1.4 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 56",
+               "patterns": [
+                    "PKR1.45 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 57",
+               "patterns": [
+                    "PKR1.5 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 58",
+               "patterns": [
+                    "PKR1.55 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 59",
+               "patterns": [
+                    "PKR1.6 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 60",
+               "patterns": [
+                    "PKR1.65 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 61",
+               "patterns": [
+                    "PKR1.7 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 62",
+               "patterns": [
+                    "PKR1.75 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 63",
+               "patterns": [
+                    "PKR1.8 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 64",
+               "patterns": [
+                    "PKR1.82 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 65",
+               "patterns": [
+                    "PKR1.85 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 66",
+               "patterns": [
+                    "PKR1.9 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 67",
+               "patterns": [
+                    "PKR1.92 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 68",
+               "patterns": [
+                    "PKR1.95 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 69",
+               "patterns": [
+                    "PKR12 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 70",
+               "patterns": [
+                    "PKR2 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 71",
+               "patterns": [
+                    "PKR2.1 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 72",
+               "patterns": [
+                    "PKR2.15 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 73",
+               "patterns": [
+                    "PKR2.18 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 74",
+               "patterns": [
+                    "PKR2.2 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 75",
+               "patterns": [
+                    "PKR2.25 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 76",
+               "patterns": [
+                    "PKR2.3 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 77",
+               "patterns": [
+                    "PKR2.35 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 78",
+               "patterns": [
+                    "PKR2.4 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 79",
+               "patterns": [
+                    "PKR2.5 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 80",
+               "patterns": [
+                    "PKR2.7 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 81",
+               "patterns": [
+                    "PKR2.75 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 82",
+               "patterns": [
+                    "PKR2.8 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 83",
+               "patterns": [
+                    "PKR2.95 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 84",
+               "patterns": [
+                    "PKR3 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 85",
+               "patterns": [
+                    "PKR3.25 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 86",
+               "patterns": [
+                    "PKR3.5 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 87",
+               "patterns": [
+                    "PKR4 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 88",
+               "patterns": [
+                    "PKR4.5 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 89",
+               "patterns": [
+                    "PKR4.65 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 90",
+               "patterns": [
+                    "PKR4.7 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 91",
+               "patterns": [
+                    "PKR4.75 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 92",
+               "patterns": [
+                    "PKR5.75 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 93",
+               "patterns": [
+                    "PKR6 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 94",
+               "patterns": [
+                    "PKR7 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 95",
+               "patterns": [
+                    "PKR19 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 96",
+               "patterns": [
+                    "PKR20 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 97",
+               "patterns": [
+                    "PKR22 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 98",
+               "patterns": [
+                    "PKR23 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 99",
+               "patterns": [
+                    "PKR25 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 100",
+               "patterns": [
+                    "PKR26 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 101",
+               "patterns": [
+                    "PKR27 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 102",
+               "patterns": [
+                    "PKR28.5 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 103",
+               "patterns": [
+                    "PKR30 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 104",
+               "patterns": [
+                    "PKR31 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 105",
+               "patterns": [
+                    "PKR32 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 106",
+               "patterns": [
+                    "PKR35 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 107",
+               "patterns": [
+                    "PKR40 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 108",
+               "patterns": [
+                    "PKR41.56 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 109",
+               "patterns": [
+                    "PKR42 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 110",
+               "patterns": [
+                    "PKR43 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 111",
+               "patterns": [
+                    "PKR45 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 112",
+               "patterns": [
+                    "PKR47 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 113",
+               "patterns": [
+                    "PKR48 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 114",
+               "patterns": [
+                    "PKR49.9 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 115",
+               "patterns": [
+                    "PKR50 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 116",
+               "patterns": [
+                    "PKR52 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 117",
+               "patterns": [
+                    "PKR53.55 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 118",
+               "patterns": [
+                    "PKR54 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 119",
+               "patterns": [
+                    "PKR54.6 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 120",
+               "patterns": [
+                    "PKR55 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 121",
+               "patterns": [
+                    "PKR56 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 122",
+               "patterns": [
+                    "PKR56.7 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 123",
+               "patterns": [
+                    "PKR57 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 124",
+               "patterns": [
+                    "PKR58 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 125",
+               "patterns": [
+                    "PKR58.5 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 126",
+               "patterns": [
+                    "PKR59.06 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 127",
+               "patterns": [
+                    "PKR60 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 128",
+               "patterns": [
+                    "PKR60.5 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 129",
+               "patterns": [
+                    "PKR62 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 130",
+               "patterns": [
+                    "PKR63 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 131",
+               "patterns": [
+                    "PKR65 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 132",
+               "patterns": [
+                    "PKR66.15 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 133",
+               "patterns": [
+                    "PKR70 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 134",
+               "patterns": [
+                    "PKR72 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 135",
+               "patterns": [
+                    "PKR74.03 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 136",
+               "patterns": [
+                    "PKR75 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 137",
+               "patterns": [
+                    "PKR75.36 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 138",
+               "patterns": [
+                    "PKR80 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 139",
+               "patterns": [
+                    "PKR85 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 140",
+               "patterns": [
+                    "PKR90 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 141",
+               "patterns": [
+                    "PKR95 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 142",
+               "patterns": [
+                    "PKR99 Lakh"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 143",
+               "patterns": [
+                    "PKR1.1 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 144",
+               "patterns": [
+                    "PKR1.15 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 145",
+               "patterns": [
+                    "PKR1.2 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 146",
+               "patterns": [
+                    "PKR1.22 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 147",
+               "patterns": [
+                    "PKR1.3 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 148",
+               "patterns": [
+                    "PKR1.5 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 149",
+               "patterns": [
+                    "PKR1.75 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Price 150",
+               "patterns": [
+                    "PKR1.8 Crore"
+               ],
+               "responses": [
+                    "I have all the essential information i need would you like me to suggest a few options"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "City 1",
+               "patterns": [
+                    "Gujrat"
+               ],
+               "responses": [
+                    "What size(marla or kanal) of property you are looking for"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "City 2",
+               "patterns": [
+                    "Sahiwal"
+               ],
+               "responses": [
+                    "What size(marla or kanal) of property you are looking for"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "City 3",
+               "patterns": [
+                    "Sukkur"
+               ],
+               "responses": [
+                    "What size(marla or kanal) of property you are looking for"
+               ],
+               "context_set": ""
+          }
+     ]
+}

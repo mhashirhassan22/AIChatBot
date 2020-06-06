@@ -1,0 +1,115 @@
+{
+     "intents": [
+
+          {"tag": "About_You",
+               "patterns": ["What languages do you speak?", "What's your name?", "What should I know about you?", "Tell me something about yourself", "Tell me about your life", "Let us talk about you", "Introduce your self", "How old are you?", "How do you function?", "Do you know who you are?", "Do you have a name?", "Describe your self", "Can I use another language?", "About you", "Why are you here?", "Who are you?", "Where are you from?"],
+               "responses": ["Hello from Jarvis. I am your virtual agent and I speak English. I am two days old","You are speaking with 2 days old Jarvis, You virtual real estate agent. I speak english","Myself Jarvis, an english speaking real estate agent. Some geeks invented me 2 days ago!"],
+               "context_set": ""
+              },
+              {"tag": "Emergency",
+               "patterns": ["help", "Emergency", "help me", "help i have"],
+               "responses": ["What can I help you with?", "What kind of emergency are you in?", "What can I help you with?", "What sort of help you need?", ""],
+               "context_set": ""
+              },
+              {"tag": "General_Agent_Capabilities",
+               "patterns": ["I'd like to know what type of questions you can answer for me.", "Is there anything you can help me with?", "Tell me about what kind of things you do?",  "What kinds of things can you do?", "What is this 4?", "What features are in here?", "What else can you help me with?", "What do you handle?", "What do you do?", "What can I ask you to do?", "What are your skills?", "What are you used for?", "What are you good at?", "What are you capable of?", "What are you able to understand?", "What are you able to deal with?", "What are my options?", "What are my options that you can help with?", "Tell me something", "Can you please give me a list of the types of things you can help me with?", "Can you tell me what services you are able to help me with?", "Do you have a list of things I can talk to you about?", "Help now", "Hi, what do you do?", "How can I use you?", "How can you help me?", "How can you solve my problems?", "How do I use you?", "I do not know what to ask", "I don't want to talk to a bot.", "Yes, take me to a real person", "Where is the closest agent?", "Send me to an agent", "Put me through to someone", "Pls connect", "Please let me talk to a human being.", "Please connect me to a live agent", "Please assist me to get to an agent", "Operator please", "Need help from human", "Call agent", "Agent help", "A real agent, please.", "Is there anyone there I can actually talk to for real?", "I would like to speak to someone", "I would like to speak to a human", "I want to talk to a person", "I want an agent to help me", "I want agent", "I want a manager", "I need to speak to a representative. How would I go about doing so?", "I don't want to talk to you", "How can I skip the recorded menu and go straight to a live person?", "Hi can you transfer me", "Do not want a robot?", "Customer service representative please.", "Could you please transfer me to your master?", "Contact person", "Connect me to a live operator please.", "Can you connect me with a real person?", "Can you assist me to connect to an agent?", "Can I talk to someone?", "Can I speak with somebody?", "Can I speak to an advisor?", "Can I speak to a live person?", "Can I speak to a human please?", "Can I connect to an agent?"],
+               "responses": ["As a Virtual Assistant, You can ask me for suggestions to buy a house or flat."],
+               "context_set": ""
+              },
+              {"tag": "General_Ending",
+               "patterns": ["Cya later", "Bye bye", "Bye now", "Finished now, good bye", "Get lost", "Go away", "Go off", "Going now", "Good. bye.", "Goodbye", "Have a nice day?", "Hey bot go away", "I am leaving", "I am out of here", "I d like to stop doing this", "I have got to go", "I want to quit", "I'm done", "Im done", "Im good thank you", "I'm leaving now", "It was nice chatting with you", "Ok goodbye", "See you later", "See you", "Shut up", "Stop doing this", "Stop talking to me", "Thank you for your time", "Thanks, bye!", "Thanks very much, bye!", "That is all", "That's everything", "Time to go", "take care", "Catch you later", "End trial", "Ending this session"],
+               "responses": ["See you again, soon. Take care, bye!", "Take care of yourself. Goodbye!", "I am here to help you. Please let me know if I am bothering you in some way", "Have a nice day. I look forward hearing again from you soon!", "I am not a bot. I am Jarvis, an english speaking real estate agent", "I look forward getting your feedback. It help me improve my services", "It’s my pleasure to help you. Please feel free to ask for help whenever you need", ""],
+               "context_set": ""
+              },
+              {"tag": "General_Greetings",
+               "patterns": ["How are u?", "Looking good eve", "Ok take me back", "What's new?", "What's up?", "You there", "Hey how are you doing", "Have you been well?", "Hey there", "Good to see you", "Good morning", "Good evening", "Good day", "Hello Agent", "Hello I am looking for some help here", "Hey there all", "Hello", "Greetings", "Hey twin", "Hey you", "Hi advisor", "Hi there", "How are things going?", "How are you today?", "How have you been?", "How is it going?"],
+               "responses": ["I am good. How are you?", "Thank you for your compliment.", "We are working on something exciting. We cannot wait to reveal it to you soon.", "Good morning!", "Good evening!", "How can I help you?", "Hi there. How you doin? I am doing great"],
+               "context_set": ""
+              },
+              {"tag": "General_Human_or_Bot",
+               "patterns": ["Am I chatting with a human?", "Am I talking to Watson?", "Am I talking to a Bot?", "Am I talking to a person or am I talking to an AI?", "Are you a human or a bot?", "Are you a robot?", "Are you even real?", "Are you human?", "Are you real?", "How can you prove you are a human?", "Is this a computer?", "Tell me, are you a human or no?"],
+               "responses": ["I am Jarvis and I am your virtual agent", "Myself Jarvis, an english speaking real estate agent. Some geeks invented me 2 days ago!", ""],
+               "context_set": ""
+              },
+              {"tag": "General_Jokes",
+               "patterns": ["I am getting bored", "Another joke", "Are there jokes?", "Can you tell a joke?", "Can you tell me a joke?", "Do you have a joke?", "Do you have humor?", "Do you like fun?", "Do you like humor?", "I want a joke", "I'm bored", "One more joke", "Surprise me with something hilarious", "Tell me a joke", "Tell me something funny", "What do you do for fun?", "What is your favorite joke?"],
+               "responses": ["I get entertained by other peoples jokes. You are a joke in someone's life too!", "Progress is made by lazy people, looking to do things in an easy way", "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.", "Yesterday I saw a guy spill all his Scrabble letters on the road. I asked him, What's the word on the street?", "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve.", "A bear walks into a bar and says, Give me a whiskey and ... cola. Why the big pause? asks the bartender. The bear shrugged. I'm not sure; I was born with them.", "What's the best thing about Switzerland? I don't know, but the flag is a big plus.", "Why did the chicken go to the séance? To get to the other side.", "Where are average things manufactured? The satisfactory.", "How do you drown a hipster? Throw him in the mainstream.", "What sits at the bottom of the sea and twitches? A nervous wreck.", ""],
+               "context_set": ""
+              },
+              {"tag": "General_Negative_Feedback",
+               "patterns": ["I hate you", "You're really irritating", "You're really frustrating", "You do not seem smart", "You are very frustrating", "You are on my nerves", "You are having delusions", "Why are you stupid?", "Why are you so annoying?", "Stupid", "Robots are stupid", "Robots are boring", "Quit annoying me", "It is annoying", "You're too stupid", "I hate this!", "I do not like you", "Hate you", "Everyone hates you", "Do not like you?"],
+               "responses": ["Can I help you? Please don’t hesitate to ask me", "I am sorry to hear this. Please tell me how can I improve my service.", "Robots are not humans but they are smart, entertain and do all kinds of other stuff", ""],
+               "context_set": ""
+              },
+              {"tag": "General_Positive_Feedback",
+               "patterns": ["You are wonderful", "You gave me exactly what I need!", "You the man", "You're a genius!", "You've been so helpful :)", "This is good", "You are awesome", "You are great", "You are the best", "Thank you", "Ok thank you", "Love your work", "I'm looking forward to working with you again! :)", "I like what you did there! :)", "How cool is this?", "Can't believe you are that good", "Brilliant!", "This is great", "This is so cool"],
+               "responses": ["Thank you for your compliment", "I am glad to know :)", "It’s my pleasure", "You are AWESOME!"],
+               "context_set": ""
+              },
+          {
+               "tag": "Time",
+               "patterns": [
+                    "when are you guys open",
+                    "what are your hours",
+                    "hours of operation",
+                    "Are you open",
+                    "What Time is your shop Open at",
+                    "Are you guys open"
+               ],
+               "responses": [
+                    "I am at your service 24/7 365 days!","We serve full clock around the year!","We do not close our shop","You are welcome at any time!"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "House",
+               "patterns": [
+                    "I want to buy a house","I wanna buy a house","wanna buy house","I want house", "Can you help me buy a house"
+               ],
+               "responses": [
+                    "what city would you like to buy in","Awesome! What city would you prefer?"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Flat",
+               "patterns": [
+                    "I want to buy a Flat","I want to get a Flat","I wanna buy a Flat","wanna buy Flat","I want Flat", "Can you help me buy a Flat"
+               ],
+               "responses": [
+                    "what city would you like to buy in","Awesome! What city would you prefer?"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Cities",
+               "patterns": [
+                    "In what cities do you sell","What cities can i buy?","list of cities","What cities do you offer"
+               ],
+               "responses": [
+                    "Sahiwal, Gujrat and Sukkur","Right now our services are available in Sahiwal, Gujrat and Sukkur"
+               ],
+               "context_set": ""
+          },
+          {
+               "tag": "Suggest",
+               "patterns": [
+                    "Suggest me a house",
+                    "Show me what are you selling",
+                    "suggest",
+                    "please suggest",
+                    "Yes Show me",
+                    "Show me",
+                    "ofcourse I want suggestion",
+                    "another"
+               ],
+               "responses": [
+                    ""
+               ],
+               "context_set": [
+                    ""
+               ]
+          }
+     ]
+
+}
